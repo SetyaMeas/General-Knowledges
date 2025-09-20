@@ -22,16 +22,16 @@ that's constructed.
 
 2. `ConcreteBuilder`
 
-   * constructs andassembles parts oftheproduct byimplementing theBuilder
+   * constructs and assembles parts of the product by implementing the Builder
    interface.
 
    * defines and keeps track ofthe representation it creates.
 
-   * provides an interface for retrieving the product (e.g., GetASCIIText, GetTextWidget).
+   * provides an interface for retrieving the product.
 
 3. `Director`
 
-    * constructs an object using theBuilderinterface.
+    * constructs an object using the Builder interface.
 
 4. `Product`
 
@@ -41,15 +41,15 @@ that's constructed.
 
 5. `Collaboration`
 
-    * The client creates the Director object and configuresit with the desired Builder
+    * The client creates the Director object and configure sit with the desired Builder
     object.
 
     * Director notifiesthe builder whenever a part ofthe product should be built.
 
     * Builder handles requests from the director and adds parts to the product.
 
-    * Theclient retrieves the product from the builder.
-    The followinginteraction diagram illustrates how Builder and Director cooperate
+    * The client retrieves the product from the builder.
+    The following interaction diagram illustrates how Builder and Director cooperate
     with a client.
 
 ---

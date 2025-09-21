@@ -48,4 +48,4 @@ Go to `Setting` on Github then click on `SSH and GPG keys`. Click on `New SSH ke
 
 Thanks
 
-## [_refference_](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+_refference:_ [GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)

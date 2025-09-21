@@ -39,21 +39,19 @@ that's constructed.
 
     * includes classes that define the constituent parts, including interfaces for assembling the parts into the final result.
 
-5. `Collaboration`
+## Collaboration
 
-    * The client creates the Director object and configure sit with the desired Builder
-    object.
+* The client creates the Director object and configure sit with the desired Builder
+object.
 
-    * Director notifiesthe builder whenever a part ofthe product should be built.
+* Director notifies the builder whenever a part of the product should be built.
 
-    * Builder handles requests from the director and adds parts to the product.
+* Builder handles requests from the director and adds parts to the product.
 
-    * The client retrieves the product from the builder.
-    The following interaction diagram illustrates how Builder and Director cooperate
-    with a client.
+* The client retrieves the product from the builder.
 
 ---
 
-### _**refference**_: Design Patterns Elements of Reusable Object-Oriented Software
+#### _**refference**_: Design Patterns Elements of Reusable Object-Oriented Software
 
-Thanks.
+_Thanks._

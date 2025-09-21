@@ -1,20 +1,6 @@
-# Fluent Interface
+# Implementation
 
-This concept, created in 2005 by [Eric Evans](https://x.com/ericevans) and [Martin Fowler](https://x.com/martinfowler), aims to increase code readability by creating a domain-specific language (DSL). [_refference_](https://dzone.com/articles/java-fluent-api)
-
-## Definition
-
-The `Fluent Interface` is an object-oriented API design that allows us to chain method calls together in a readable and intuitive manner. [_refference_](https://www.baeldung.com/java-fluent-interface-vs-builder-pattern)
-
-## Implementation
-
-### Concept
-
-To implement it, we need to declare methods that return objects from the same class. As a result, we’ll be able to chain together multiple method calls. The pattern is often used in building **DSLs** (Domain-Specific Languages). [_refference_](https://www.baeldung.com/java-fluent-interface-vs-builder-pattern)
-
-### Code
-
-This is my personal example code based on `Java` programming language:
+What is it? _[here](../Programming%20Concepts/FluentInterface.md)._
 
 ```java
 public final class SQL {
@@ -63,7 +49,7 @@ public final class SQL {
 }
 ```
 
-#### Client Code
+# Client Code
 
 ```java
 public class Main {
@@ -78,6 +64,3 @@ public class Main {
     }
 }
 ```
----
-
-_Thanks._

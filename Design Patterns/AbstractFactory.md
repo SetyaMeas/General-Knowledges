@@ -48,6 +48,6 @@ Use the Abstract Factory pattern when
 
 ---
 
-#### _**refference**_: Design Patterns Elements of Reusable Object-Oriented Software
+_[refference](https://en.wikipedia.org/wiki/Design_Patterns)_
 
 _Thanks._
